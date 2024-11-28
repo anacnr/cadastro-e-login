@@ -1,0 +1,22 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+*{ margin: 0%; padding: 0px; box-sizing: border-box; }
+
+:root{
+    --inputs_font : 'Lexend', 'sans-serif';
+    --buttons_font : '';
+    --inputs_color : white;
+    --butt_regiser_color : yellow;
+    --butt_login_color : green;
+}
+
+@media (orientation:portrait) and (max-width: 600px){
+    body{
+        background-color: red; 
+    }
+
+    #register { border: 1px solid pink;  }
+}
+
