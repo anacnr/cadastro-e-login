@@ -11,10 +11,17 @@
         <div id="logo">
         </div>
             <div id="dates">
-                <span> <ion-icon name="person-sharp"></ion-icon> <input type="text" id= "name" name = "name" aria-label = "Nome" minlength = "4" maxlength = "255" placeholder = "Nome" required> </span>
-                <span> <ion-icon name="at-sharp"></ion-icon> <input type="email" id= "email" name = "email" aria-label = "Email" minlength = "4" maxlength = "255" placeholder = "Email" required> </span>
-                <span> <ion-icon name="calendar-sharp"></ion-icon> <input type="date" id= "birth" required> </span>
-                <span> <ion-icon name="lock-closed-sharp"></ion-icon> <input type="password" id = "pass" name = "pass" aria-label = "Senha" placeholder = "Senha"  required>  </span>
+                <span> <label for="name"> <ion-icon name="person-sharp"></ion-icon> </label>
+                <input type="text" id= "name" name = "name" aria-label = "Nome" minlength = "4" maxlength = "255" placeholder = "Nome" required> </span>
+
+                <span> <label for="email"> <ion-icon name="at-sharp"></ion-icon> </label> 
+                <input type="email" id= "email" name = "email" aria-label = "Email" minlength = "4" maxlength = "255" placeholder = "Email" required> </span>
+
+                <span> <label for="birth"> <ion-icon name="calendar-sharp"></ion-icon> </label>
+                <input type="date" id= "birth" required> </span>
+
+                <span> <label for="pass"> <ion-icon name="lock-closed-sharp"></ion-icon> </label> 
+                <input type="password" id = "pass" name = "pass" aria-label = "Senha" placeholder = "Senha"  required>  </span>
         </div>
         <div id="buttons">
             <button type = "submit" id = "butt-register" class = "button" aria-label = "Cadastrar">Cadastrar</button>
