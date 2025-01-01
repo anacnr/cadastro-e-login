@@ -1,0 +1,8 @@
+create table registerUser(
+	id int auto_increment primary key,
+    name varchar(255) not null,
+    email varchar(255) not null unique,
+    watchword  varchar(255) not null,
+    hashWatchword varchar(255),
+    date_birth date not null
+);
